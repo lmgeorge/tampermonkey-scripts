@@ -9,13 +9,12 @@
 // @downloadURL  https://raw.githubusercontent.com/lmgeorge/tampermonkey-scripts/main/print-styles-{{siteName}}.user.js
 // @match        {{match}}
 // @grant        none
-// @run-at       document-idle
+// @run-at       document-body
 // @noframes
 // ==/UserScript==
 
 (function() {
     'use strict';
-
 
     const css = `
         <style title="atomicpurple:print-styles-{{siteName}}">
@@ -25,5 +24,5 @@
         </style>
         `
     document.body.insertAdjacentHTML('beforeend', css)
-    
+
 })();
