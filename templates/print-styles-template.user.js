@@ -18,7 +18,7 @@
 
 
     const css = `
-        <style>
+        <style title="atomicpurple:print-styles-{{siteName}}">
             @media print {
                 
             }
