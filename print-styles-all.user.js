@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Print Styles: all
-// @version      0.1
+// @version      0.2
 // @description  A userscript that sets up better print styles for all sites.
 // @license      MIT
 // @author       Lauren George <https://atomicpurple.com>
@@ -9,7 +9,7 @@
 // @downloadURL  https://raw.githubusercontent.com/lmgeorge/tampermonkey-scripts/main/print-styles-all.user.js
 // @match        *
 // @grant        none
-// @run-at       document-body
+// @run-at       context-menu
 // @noframes
 // ==/UserScript==
 
