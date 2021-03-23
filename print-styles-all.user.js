@@ -54,11 +54,11 @@
                     counter-reset: refs;
                 }
 
-                span, em, b, i, strong, code, li {
+                span, em, b, i, strong, code, li, img, figure {
                     break-inside: avoid !important;
                 }
 
-                h2, h3, h4, h5 {
+                h1, h2, h3, h4, h5 {
                     break-after: avoid !important;
                 }
 
